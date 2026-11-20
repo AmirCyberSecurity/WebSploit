@@ -58,21 +58,20 @@ MENU_LINES = [
 ]
 
 ABOUT_LINES = [
-    f"{R}  WebSploit - Web Security Assessment Framework{N}",
-    f"{R}  A modular security assessment toolkit engineered for{N}",
-    f"{R}  structured web application testing, vulnerability analysis,{N}",
-    f"{R}  network reconnaissance, and controlled security evaluation.{N}",
+    f"{R}  WebSploit - Modular Web Security Framework{N}",
+    f"{R}  A Python-based toolkit built for web security assessment,{N}",
+    f"{R}  reconnaissance, vulnerability analysis, and network discovery.{N}",
     "",
-    f"{R}  The toolkit integrates independent testing components{N}",
-    f"{R}  into a unified command-line environment, maintaining a{N}",
-    f"{R}  consistent operational structure across security workflows.{N}",
+    f"{R}  The framework combines multiple security modules{N}",
+    f"{R}  into a unified command-line interface, providing a{N}",
+    f"{R}  centralized environment for security testing.{N}",
     "",
-    f"{R}  Its architecture is designed to support systematic analysis,{N}",
-    f"{R}  technical assessment, and identification of potential security{N}",
-    f"{R}  weaknesses across authorized testing environments.{N}",
+    f"{R}  Its modular architecture supports independent components{N}",
+    f"{R}  for analyzing web applications, network services,{N}",
+    f"{R}  and potential security weaknesses.{N}",
     "",
-    f"{R}  WebSploit is intended for professional security assessment,{N}",
-    f"{R}  authorized penetration testing, and controlled research.{N}"
+    f"{R}  Designed for authorized penetration testing,{N}",
+    f"{R}  security research, and controlled lab environments.{N}",
 ]
 
 OTHER_PROJECTS_LINES = [
