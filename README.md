@@ -24,7 +24,7 @@ WebSploit is a Python-based Web Security Toolkit for reconnaissance, vulnerabili
 
 Clone the repository:
 
-    git clone https://github.com/AmirCyberSecurity/WebSploit.git
+    git clone https://github.com/AmirCyberSecurity/WebSploit
 
 Enter the project directory:
 
