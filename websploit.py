@@ -86,7 +86,7 @@ OTHER_PROJECTS_LINES = [
     f"{R}  Django, aiohttp, JavaScript, and RPS metrics.{N}",
     f"{R}  github.com/AmirCyberSecurity/TonFlood{N}",
     "",
-    f"{R}  [03] FSOCIETY Cyber Deck{N}",
+    f"{R}  [03] FSOCIETY{N}",
     f"{R}  Python and Flet-based cybersecurity application.{N}",
     f"{R}  Combines OSINT utilities, DoS with spoofed IP headers.{N}",
     f"{R}  github.com/AmirCyberSecurity/FSOCIETY{N}",
