@@ -1,17 +1,40 @@
 # WebSploit
 
-WebSploit is a Python-based Web Security Toolkit for reconnaissance, vulnerability analysis, and network discovery. It combines multiple security modules in a single command-line interface.
+<p align="center">
+  <b>Reconnaissance. Vulnerability Analysis. Network Discovery.</b>
+  <br>
+  A unified security toolkit for exploring attack surfaces and analyzing web applications.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3-red?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-black?style=flat-square">
+  <img src="https://img.shields.io/badge/Category-Web%20Security-red?style=flat-square">
+</p>
+
+---
+
+## Overview
+
+WebSploit is a Python-based Web Security Toolkit that brings reconnaissance, network discovery, and vulnerability analysis into a single command-line interface.
+
+From discovering hidden web resources to identifying exposed ports and investigating potential vulnerabilities, WebSploit provides a centralized environment for security testing without unnecessary complexity.
+
+```text
+[ RECONNAISSANCE ]  [ NETWORK DISCOVERY ]
+[ WEB ANALYSIS   ]  [ VULNERABILITY TESTING ]
+```
 
 ## Features
 
-- **Directory Fuzzing** - Discover accessible directories and web resources.
-- **Subdomain Fuzzing** - Find subdomains associated with a domain.
-- **Port Scanner** - Check network ports and service availability.
-- **LAN Discovery** - Discover devices on a local network.
-- **Web Fingerprinting** - Identify technologies used by web applications.
-- **SQLi Scanner** - Check for potential SQL injection vulnerabilities.
-- **XSS Scanner** - Probe web applications for potential XSS vulnerabilities.
-- **L7 DoS** - Application-layer stress testing for isolated lab environments.
+- **Directory Fuzzing** — Discover accessible directories and web resources.
+- **Subdomain Fuzzing** — Find subdomains associated with a domain.
+- **Port Scanner** — Check open ports and service availability.
+- **LAN Discovery** — Discover devices on a local network.
+- **Web Fingerprinting** — Identify technologies used by web applications.
+- **SQLi Scanner** — Check for potential SQL injection vulnerabilities.
+- **XSS Scanner** — Probe web applications for potential cross-site scripting vulnerabilities.
+- **L7 DoS** — Application-layer stress testing in isolated, authorized lab environments.
 
 ## Platform Support
 
@@ -22,57 +45,71 @@ WebSploit is a Python-based Web Security Toolkit for reconnaissance, vulnerabili
 
 Clone the repository:
 
-    git clone https://github.com/AmirCyberSecurity/WebSploit
-
-Enter the project directory:
-
-    cd WebSploit
+```bash
+git clone https://github.com/AmirCyberSecurity/WebSploit.git
+cd WebSploit
+```
 
 Install dependencies:
 
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-## Run
+## Usage
 
-    python websploit.py
+Start WebSploit:
 
-## Quick Start
+```bash
+python websploit.py
+```
 
-Too lazy to remember two commands?
+### Quick Start
 
-    python launch.py
+Prefer a single command?
+
+```bash
+python launch.py
+```
 
 The launcher automatically installs dependencies and starts WebSploit.
 
 ## Requirements
 
-    requests
-    dnspython
-    scapy
-
-Python 3 is required.
+- Python 3
+- requests
+- dnspython
+- scapy
 
 ## Project Structure
 
-    WebSploit/
-    ├── lib/
-    ├── lists/
-    ├── image.png
-    ├── launch.py
-    ├── requirements.txt
-    ├── websploit.py
-    └── README.md
+```text
+WebSploit/
+├── lib/
+├── lists/
+├── image.png
+├── launch.py
+├── requirements.txt
+├── websploit.py
+└── README.md
+```
 
 ## Preview
 
 <p align="center">
-  <img src="./image.png" width="100%">
+  <img src="./image.png" width="100%" alt="WebSploit Preview">
 </p>
 
 ## Disclaimer
 
-WebSploit is an educational project intended for authorized security testing and controlled lab environments.
+WebSploit is an educational project intended for authorized security testing and controlled laboratory environments.
 
 Only use this toolkit on systems you own or have explicit permission to test. The author is not responsible for misuse or damage caused by unauthorized use.
 
-**WebSploit** - Web Security Toolkit.
+---
+
+<p align="center">
+  <b>WebSploit</b> — Web Security Toolkit
+  <br>
+  <sub>Discover the surface. Analyze the exposure. Understand the risk.</sub>
+</p>
