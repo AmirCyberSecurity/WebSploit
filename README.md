@@ -6,15 +6,19 @@
 
 Reconnaissance · Vulnerability Analysis · Network Discovery
 
-A Python-based security toolkit that combines multiple web security and network analysis modules in a single command-line interface.
+WebSploit is a Python-based Web Security Toolkit that combines essential security testing and network discovery capabilities in a single command-line interface.
+
+Designed for security enthusiasts and professionals who want to explore web applications, discover network resources, and investigate potential vulnerabilities.
 
 <br>
 
-<img src="https://img.shields.io/badge/Python-3-181818?style=flat-square&logo=python&logoColor=red" alt="Python">
+<img src="https://img.shields.io/badge/Python-3-red?style=flat-square&logo=python&logoColor=white" alt="Python">
 &nbsp;
-<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-181818?style=flat-square" alt="Platforms">
+<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-black?style=flat-square" alt="Platforms">
 &nbsp;
-<img src="https://img.shields.io/badge/Category-Cybersecurity-181818?style=flat-square&logo=github&logoColor=red" alt="Cybersecurity">
+<img src="https://img.shields.io/badge/Focus-Web%20Security-red?style=flat-square" alt="Web Security">
+
+<br>
 
 </div>
 
@@ -24,6 +28,8 @@ A Python-based security toolkit that combines multiple web security and network 
 
 ## Features
 
+Discover the capabilities of WebSploit.
+
 </div>
 
 **Directory Fuzzing**
@@ -32,7 +38,7 @@ Discover accessible directories and web resources.
 
 **Subdomain Fuzzing**
 
-Find subdomains associated with a target domain.
+Find subdomains associated with a domain.
 
 **Port Scanner**
 
@@ -56,11 +62,15 @@ Probe web applications for potential cross-site scripting vulnerabilities.
 
 **L7 DoS**
 
-Perform application-layer stress testing in isolated, authorized lab environments.
+Application-layer stress testing for isolated, authorized lab environments.
 
 ---
 
 <div align="center">
+
+## Platform Support
+
+Linux · Windows
 
 ## Installation
 
@@ -79,20 +89,24 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Usage
+<div align="center">
 
-Run WebSploit:
+## Quick Start
 
-```bash
-python websploit.py
-```
+Launch WebSploit with a single command.
 
-### Quick Start
-
-Automatically install dependencies and launch the toolkit:
+</div>
 
 ```bash
 python launch.py
+```
+
+The launcher automatically installs dependencies and starts WebSploit.
+
+Alternatively, start the main program directly:
+
+```bash
+python websploit.py
 ```
 
 ---
@@ -101,21 +115,17 @@ python launch.py
 
 ## Requirements
 
-Python 3 · requests · dnspython · scapy
+Python 3
 
-**Supported Platforms:** Linux and Windows
-
-</div>
-
----
-
-<div align="center">
+`requests` · `dnspython` · `scapy`
 
 ## Preview
 
-<img src="./image.png" width="100%" alt="WebSploit Preview">
-
 </div>
+
+<p align="center">
+  <img src="./image.png" width="100%" alt="WebSploit Preview">
+</p>
 
 ---
 
@@ -142,12 +152,12 @@ WebSploit/
 
 ## Disclaimer
 
-WebSploit is an educational project intended for authorized security testing and controlled laboratory environments.
+WebSploit is an educational project intended for authorized security testing and controlled lab environments.
 
 Only use this toolkit on systems you own or have explicit permission to test. The author is not responsible for misuse or damage caused by unauthorized use.
 
 <br>
 
-**WebSploit · Web Security Toolkit**
+**WebSploit — Web Security Toolkit**
 
 </div>
