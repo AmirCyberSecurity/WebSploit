@@ -1,29 +1,37 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=FF2020&center=true&vCenter=true&width=1000&height=100&lines=%24+WEBSPLOIT;%24+WEB+SECURITY+TOOLKIT;%24+RECONNAISSANCE+%26+VULNERABILITY+ANALYSIS;%24+LINUX+%26+WINDOWS" alt="WebSploit Banner">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=FF3030&center=true&vCenter=true&width=1000&height=100&lines=%24+WEBSPLOIT;%24+WEB+SECURITY+TOOLKIT;%24+RECONNAISSANCE+%26+VULNERABILITY+ANALYSIS;%24+LINUX+%26+WINDOWS" alt="WebSploit Banner">
 
 <br>
 
 # WebSploit
 
-**Web Security Toolkit for Reconnaissance & Vulnerability Analysis**
+**Web Security Toolkit**
 
-A Python-based toolkit for web reconnaissance, vulnerability analysis, and network discovery.
+Reconnaissance • Vulnerability Analysis • Network Discovery
 
 <br>
 
-<a href="https://github.com/AmirCyberSecurity/WebSploit/stargazers"><img src="https://img.shields.io/github/stars/AmirCyberSecurity/WebSploit?style=flat-square&color=red&label=STARS" alt="GitHub Stars"></a>
-<a href="https://github.com/AmirCyberSecurity/WebSploit/issues"><img src="https://img.shields.io/github/issues/AmirCyberSecurity/WebSploit?style=flat-square&color=red&label=ISSUES" alt="GitHub Issues"></a>
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/PYTHON-3.x-black?style=flat-square&logo=python&logoColor=red" alt="Python"></a>
-<img src="https://img.shields.io/badge/PLATFORM-LINUX%20%7C%20WINDOWS-black?style=flat-square" alt="Platform">
+<a href="https://github.com/AmirCyberSecurity/WebSploit/stargazers">
+<img src="https://img.shields.io/github/stars/AmirCyberSecurity/WebSploit?style=for-the-badge&logo=github&logoColor=white&label=STARS&labelColor=151515&color=ff3030" alt="GitHub Stars">
+</a>
+<a href="https://github.com/AmirCyberSecurity/WebSploit/issues">
+<img src="https://img.shields.io/github/issues/AmirCyberSecurity/WebSploit?style=for-the-badge&logo=github&logoColor=white&label=ISSUES&labelColor=151515&color=ff8c00" alt="GitHub Issues">
+</a>
+<a href="https://www.python.org/">
+<img src="https://img.shields.io/badge/PYTHON-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=151515" alt="Python">
+</a>
+<a href="https://github.com/AmirCyberSecurity/WebSploit">
+<img src="https://img.shields.io/badge/PLATFORM-LINUX%20%2F%20WINDOWS-2ea44f?style=for-the-badge&logo=linux&logoColor=white&labelColor=151515" alt="Platform">
+</a>
 
 <br><br>
 
-<a href="#overview">Overview</a> &nbsp; | &nbsp;
-<a href="#features">Features</a> &nbsp; | &nbsp;
-<a href="#installation">Installation</a> &nbsp; | &nbsp;
-<a href="#usage">Usage</a> &nbsp; | &nbsp;
-<a href="#preview">Preview</a>
+<a href="#overview"><img src="https://img.shields.io/badge/OVERVIEW-151515?style=flat-square&logo=readme&logoColor=ff3030" alt="Overview"></a>
+<a href="#features"><img src="https://img.shields.io/badge/FEATURES-151515?style=flat-square&logo=hackthebox&logoColor=ff3030" alt="Features"></a>
+<a href="#installation"><img src="https://img.shields.io/badge/INSTALLATION-151515?style=flat-square&logo=linux&logoColor=ff3030" alt="Installation"></a>
+<a href="#usage"><img src="https://img.shields.io/badge/USAGE-151515?style=flat-square&logo=gnubash&logoColor=ff3030" alt="Usage"></a>
+<a href="#preview"><img src="https://img.shields.io/badge/PREVIEW-151515?style=flat-square&logo=github&logoColor=ff3030" alt="Preview"></a>
 
 </div>
 
@@ -52,10 +60,9 @@ Designed for cybersecurity enthusiasts, penetration testers, and security resear
 
 <div align="center">
 
-| Operating System | Support |
-|:--|:--:|
-| Linux | Supported |
-| Windows | Supported |
+<img src="https://img.shields.io/badge/KALI_LINUX-SUPPORTED-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux">
+<img src="https://img.shields.io/badge/LINUX-SUPPORTED-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/WINDOWS-SUPPORTED-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
 
 </div>
 
@@ -67,7 +74,7 @@ Designed for cybersecurity enthusiasts, penetration testers, and security resear
 git clone https://github.com/AmirCyberSecurity/WebSploit.git
 ```
 
-### 2. Navigate to the Project Directory
+### 2. Enter the Project Directory
 
 ```bash
 cd WebSploit
@@ -93,9 +100,9 @@ python websploit.py
 python launch.py
 ```
 
-The launcher is designed to install the required dependencies and start WebSploit automatically.
+The launcher is designed to install dependencies and start WebSploit automatically.
 
-Review the launcher's behavior before running it.
+Review the launcher's behavior before executing it.
 
 ## Requirements
 
@@ -129,6 +136,8 @@ WebSploit/
 
 <img src="./image.png" width="90%" alt="WebSploit Command-Line Interface">
 
+<br>
+
 **WebSploit Command-Line Interface**
 
 </div>
@@ -151,8 +160,6 @@ Contributions, bug reports, and feature suggestions are welcome.
 3. Implement and test your improvements.
 4. Submit a pull request.
 
-Please ensure that contributions include appropriate documentation when necessary.
-
 ## Disclaimer
 
 WebSploit is an educational project intended for security research and authorized penetration testing.
@@ -167,16 +174,16 @@ The author is not responsible for damage or misuse resulting from unauthorized a
 
 <div align="center">
 
-If you find WebSploit useful, consider starring the repository.
+If WebSploit is useful to you, consider supporting the project with a GitHub star.
 
-<a href="https://github.com/AmirCyberSecurity/WebSploit">
-<img src="https://img.shields.io/badge/STAR_THIS_PROJECT-181818?style=for-the-badge&logo=github&logoColor=white" alt="Star WebSploit">
+<a href="https://github.com/AmirCyberSecurity/WebSploit/stargazers">
+<img src="https://img.shields.io/badge/STAR_ON_GITHUB-ff3030?style=for-the-badge&logo=github&logoColor=white&labelColor=151515" alt="Star WebSploit on GitHub">
 </a>
 
 <br><br>
 
 **WEBSPLOIT**
 
-Web Security Toolkit
+<sub>Web Security Toolkit for Authorized Security Research</sub>
 
 </div>
