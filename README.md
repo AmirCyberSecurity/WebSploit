@@ -2,6 +2,10 @@
 
 WebSploit is a Python-based Web Security Toolkit for reconnaissance, vulnerability analysis, and network discovery. It combines multiple security modules in a single command-line interface.
 
+<p align="center">
+  <img src="./image.png" width="85%" alt="WebSploit Terminal Preview">
+</p>
+
 ## Features
 
 - **Directory Fuzzing** - Discover accessible directories and web resources.
@@ -76,12 +80,6 @@ WebSploit/
 ├── websploit.py
 └── README.md
 ```
-
-## Preview
-
-<p align="center">
-  <img src="./image.png" width="100%">
-</p>
 
 ## Disclaimer
 
