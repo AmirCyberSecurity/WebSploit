@@ -1,53 +1,81 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=80&color=FF0000&center=true&vCenter=true&width=1000&lines=%24+WEBS PLOIT+SECURITY+TOOLKIT;%24+RECONNAISSANCE+%26+VULNERABILITY+ANALYSIS;%24+LINUX+%26+WINDOWS;%24+FOR+EDUCATIONAL+PURPOSES+ONLY)](https://git.io/typing-svg)
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&repeat=true&width=900&height=100&lines=%24+WEBS PLOIT+SECURITY+TOOLKIT;%24+RECONNAISSANCE+%26+VULNERABILITY+ANALYSIS;%24+LINUX+%26+WINDOWS;%24+FOR+EDUCATIONAL+PURPOSES+ONLY" alt="WebSploit Banner">
+</a>
 
 # WebSploit
 
-**WebSploit** is a Python-based Web Security Toolkit for reconnaissance, vulnerability analysis, and network discovery. It combines multiple security modules in a single command-line interface.
+### Web Security Toolkit
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-black?style=flat-square)](https://github.com/AmirCyberSecurity/WebSploit)
-[![GitHub Stars](https://img.shields.io/github/stars/AmirCyberSecurity/WebSploit?style=flat-square&color=red)](https://github.com/AmirCyberSecurity/WebSploit/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/AmirCyberSecurity/WebSploit?style=flat-square&color=red)](https://github.com/AmirCyberSecurity/WebSploit/issues)
+A Python-based toolkit for web reconnaissance, vulnerability analysis, and network discovery.
+
+<br>
+
+<a href="https://github.com/AmirCyberSecurity/WebSploit">
+<img src="https://img.shields.io/github/stars/AmirCyberSecurity/WebSploit?style=for-the-badge&color=red&label=STARS" alt="GitHub Stars">
+</a>
+<a href="https://github.com/AmirCyberSecurity/WebSploit/issues">
+<img src="https://img.shields.io/github/issues/AmirCyberSecurity/WebSploit?style=for-the-badge&color=red&label=ISSUES" alt="GitHub Issues">
+</a>
+<a href="https://www.python.org/">
+<img src="https://img.shields.io/badge/PYTHON-3.x-red?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+</a>
+<img src="https://img.shields.io/badge/PLATFORM-LINUX%20%7C%20WINDOWS-black?style=for-the-badge" alt="Platform">
+
+<br><br>
+
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Preview](#preview) • [Disclaimer](#disclaimer)
+
+</div>
+
+---
 
 ## Overview
 
-WebSploit provides a collection of security testing modules designed for educational purposes, authorized penetration testing, and controlled laboratory environments.
+WebSploit combines multiple security testing modules in a single command-line interface.
 
-The toolkit brings together web reconnaissance, network discovery, and vulnerability analysis in one place, providing a convenient interface for security research.
+Designed for cybersecurity enthusiasts, penetration testers, and security researchers, it provides tools for reconnaissance, network discovery, and preliminary web vulnerability analysis.
 
 ## Features
 
 | Module | Description |
-| :--- | :--- |
-| Directory Fuzzing | Discover accessible directories and web resources. |
-| Subdomain Fuzzing | Identify potential subdomains associated with a target domain. |
-| Port Scanner | Scan network ports and check service availability. |
-| LAN Discovery | Discover devices on a local network. |
-| Web Fingerprinting | Identify technologies used by web applications. |
-| SQLi Scanner | Test for potential SQL injection vulnerabilities. |
-| XSS Scanner | Probe web applications for potential cross-site scripting vulnerabilities. |
-| L7 DoS | Perform application-layer stress testing in isolated lab environments. |
+|:--|:--|
+| Directory Fuzzing | Discover accessible directories and web resources |
+| Subdomain Fuzzing | Identify potential subdomains |
+| Port Scanner | Scan ports and check service availability |
+| LAN Discovery | Discover devices on local networks |
+| Web Fingerprinting | Identify web technologies |
+| SQLi Scanner | Check for potential SQL injection vulnerabilities |
+| XSS Scanner | Probe for potential cross-site scripting vulnerabilities |
+| L7 DoS | Conduct controlled application-layer stress testing in isolated labs |
 
 ## Platform Support
 
-- Linux
-- Windows
+<div align="center">
+
+| Operating System | Status |
+|:--|:--:|
+| Linux | Supported |
+| Windows | Supported |
+
+</div>
 
 ## Installation
 
-Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/AmirCyberSecurity/WebSploit.git
 ```
 
-Navigate to the project directory:
+**2. Enter the project directory**
 
 ```bash
 cd WebSploit
 ```
 
-Install dependencies:
+**3. Install dependencies**
 
 ```bash
 python -m pip install -r requirements.txt
@@ -55,21 +83,29 @@ python -m pip install -r requirements.txt
 
 ## Usage
 
-Start WebSploit:
+<div align="center">
+
+### Standard Launch
+
+</div>
 
 ```bash
 python websploit.py
 ```
 
-## Quick Start
+<div align="center">
 
-Run the launcher to install dependencies and start the application:
+### Quick Launch
+
+</div>
 
 ```bash
 python launch.py
 ```
 
-Review the launcher's behavior before executing it.
+The launcher is designed to install dependencies and start the application automatically.
+
+Review the launcher's behavior before running it.
 
 ## Requirements
 
@@ -99,26 +135,34 @@ WebSploit/
 
 ## Preview
 
-<p align="center">
-  <img src="./image.png" width="100%" alt="WebSploit CLI Preview">
-</p>
+<div align="center">
+
+<img src="./image.png" width="90%" alt="WebSploit command-line interface">
+
+WebSploit command-line interface
+
+</div>
 
 ## Use Cases
 
-- Web application reconnaissance
-- Network discovery in authorized environments
-- Web technology identification
-- Security testing in laboratory environments
-- Learning common web vulnerabilities
-- Practicing penetration testing techniques
+<div align="center">
+
+| Application | Purpose |
+|:--|:--|
+| Reconnaissance | Collect information about authorized targets |
+| Network Discovery | Identify devices on local networks |
+| Web Analysis | Identify technologies and potential vulnerabilities |
+| Security Education | Practice security testing in controlled environments |
+
+</div>
 
 ## Disclaimer
 
-WebSploit is an educational project intended for security research and authorized testing.
+WebSploit is intended for educational purposes, authorized security assessments, and controlled laboratory environments.
 
-Only use this toolkit on systems you own or have explicit permission to test. Do not use it to disrupt services or access unauthorized systems.
+Only test systems you own or have explicit permission to assess. Unauthorized access, service disruption, and unlawful use are prohibited.
 
-The L7 stress-testing module must only be used in isolated environments with explicit authorization.
+The L7 stress-testing module must only be used against isolated lab targets with explicit authorization.
 
 The author is not responsible for damage or misuse resulting from unauthorized activity.
 
@@ -126,10 +170,22 @@ The author is not responsible for damage or misuse resulting from unauthorized a
 
 Contributions, bug reports, and feature suggestions are welcome.
 
-If you find an issue or have an idea for improvement, open an issue or submit a pull request through GitHub.
+Open an issue to report a problem or submit a pull request to propose an improvement.
 
 ## Support
 
-If you find WebSploit useful, consider starring the repository to support its development.
+<div align="center">
 
-**WebSploit** | Web Security Toolkit
+If you find WebSploit useful, consider starring the repository.
+
+<a href="https://github.com/AmirCyberSecurity/WebSploit">
+<img src="https://img.shields.io/badge/STAR%20THIS%20PROJECT-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star WebSploit">
+</a>
+
+<br><br>
+
+**WebSploit**
+
+Web Security Toolkit
+
+</div>
