@@ -1,29 +1,29 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=FF0000&center=true&vCenter=true&width=1000&height=120&lines=%24+WEBSPLOIT+SECURITY+TOOLKIT;%24+RECONNAISSANCE+%26+VULNERABILITY+ANALYSIS;%24+LINUX+%26+WINDOWS;%24+FOR+EDUCATIONAL+PURPOSES+ONLY" alt="WebSploit Animated Banner">
-
-# WebSploit
-
-### Web Security Toolkit
-
-A Python-based toolkit for reconnaissance, vulnerability analysis, and network discovery.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=1000&color=FF2020&center=true&vCenter=true&width=1000&height=100&lines=%24+WEBSPLOIT;%24+WEB+SECURITY+TOOLKIT;%24+RECONNAISSANCE+%26+VULNERABILITY+ANALYSIS;%24+LINUX+%26+WINDOWS" alt="WebSploit Banner">
 
 <br>
 
-<a href="https://github.com/AmirCyberSecurity/WebSploit">
-<img src="https://img.shields.io/github/stars/AmirCyberSecurity/WebSploit?style=for-the-badge&color=red&label=STARS" alt="GitHub Stars">
-</a>
-<a href="https://github.com/AmirCyberSecurity/WebSploit/issues">
-<img src="https://img.shields.io/github/issues/AmirCyberSecurity/WebSploit?style=for-the-badge&color=red&label=ISSUES" alt="GitHub Issues">
-</a>
-<a href="https://www.python.org/">
-<img src="https://img.shields.io/badge/Python-3.x-red?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-</a>
-<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-black?style=for-the-badge" alt="Platform">
+# WebSploit
+
+**Web Security Toolkit for Reconnaissance & Vulnerability Analysis**
+
+A Python-based toolkit for web reconnaissance, vulnerability analysis, and network discovery.
+
+<br>
+
+<a href="https://github.com/AmirCyberSecurity/WebSploit/stargazers"><img src="https://img.shields.io/github/stars/AmirCyberSecurity/WebSploit?style=flat-square&color=red&label=STARS" alt="GitHub Stars"></a>
+<a href="https://github.com/AmirCyberSecurity/WebSploit/issues"><img src="https://img.shields.io/github/issues/AmirCyberSecurity/WebSploit?style=flat-square&color=red&label=ISSUES" alt="GitHub Issues"></a>
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/PYTHON-3.x-black?style=flat-square&logo=python&logoColor=red" alt="Python"></a>
+<img src="https://img.shields.io/badge/PLATFORM-LINUX%20%7C%20WINDOWS-black?style=flat-square" alt="Platform">
 
 <br><br>
 
-[Overview](#overview) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Preview](#preview) • [Disclaimer](#disclaimer)
+<a href="#overview">Overview</a> &nbsp; | &nbsp;
+<a href="#features">Features</a> &nbsp; | &nbsp;
+<a href="#installation">Installation</a> &nbsp; | &nbsp;
+<a href="#usage">Usage</a> &nbsp; | &nbsp;
+<a href="#preview">Preview</a>
 
 </div>
 
@@ -31,9 +31,9 @@ A Python-based toolkit for reconnaissance, vulnerability analysis, and network d
 
 ## Overview
 
-WebSploit is a Python-based Web Security Toolkit that combines multiple reconnaissance, network discovery, and vulnerability analysis modules in a single command-line interface.
+WebSploit is a Python-based Web Security Toolkit that combines reconnaissance, network discovery, and vulnerability analysis in a single command-line interface.
 
-Designed for cybersecurity enthusiasts, penetration testers, and security researchers, WebSploit provides a convenient way to explore web technologies, discover network services, and investigate potential web application vulnerabilities.
+Designed for cybersecurity enthusiasts, penetration testers, and security researchers, WebSploit provides a convenient environment for exploring web technologies, discovering network services, and testing for potential web application vulnerabilities.
 
 ## Features
 
@@ -52,7 +52,7 @@ Designed for cybersecurity enthusiasts, penetration testers, and security resear
 
 <div align="center">
 
-| Platform | Support |
+| Operating System | Support |
 |:--|:--:|
 | Linux | Supported |
 | Windows | Supported |
@@ -95,7 +95,7 @@ python launch.py
 
 The launcher is designed to install the required dependencies and start WebSploit automatically.
 
-Review the launcher's behavior before executing it.
+Review the launcher's behavior before running it.
 
 ## Requirements
 
@@ -104,7 +104,7 @@ Review the launcher's behavior before executing it.
 - dnspython
 - scapy
 
-Install dependencies using:
+Install all dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -139,8 +139,19 @@ WebSploit/
 - Network discovery in authorized environments
 - Web technology identification
 - Preliminary vulnerability analysis
-- Security education and research
-- Penetration testing in controlled environments
+- Cybersecurity education and research
+- Penetration testing in controlled laboratory environments
+
+## Contributing
+
+Contributions, bug reports, and feature suggestions are welcome.
+
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Implement and test your improvements.
+4. Submit a pull request.
+
+Please ensure that contributions include appropriate documentation when necessary.
 
 ## Disclaimer
 
@@ -152,19 +163,6 @@ The Layer 7 stress-testing module must only be used in isolated laboratory envir
 
 The author is not responsible for damage or misuse resulting from unauthorized activity.
 
-## Contributing
-
-Contributions, bug reports, and feature suggestions are welcome.
-
-To contribute:
-
-1. Fork the repository.
-2. Create a branch for your changes.
-3. Implement and test your improvements.
-4. Submit a pull request.
-
-Please ensure that contributions are relevant to the project and include appropriate documentation when necessary.
-
 ## Support
 
 <div align="center">
@@ -172,13 +170,13 @@ Please ensure that contributions are relevant to the project and include appropr
 If you find WebSploit useful, consider starring the repository.
 
 <a href="https://github.com/AmirCyberSecurity/WebSploit">
-<img src="https://img.shields.io/badge/STAR%20THIS%20PROJECT-181717?style=for-the-badge&logo=github&logoColor=white" alt="Star WebSploit">
+<img src="https://img.shields.io/badge/STAR_THIS_PROJECT-181818?style=for-the-badge&logo=github&logoColor=white" alt="Star WebSploit">
 </a>
 
 <br><br>
 
-**WebSploit**
+**WEBSPLOIT**
 
-Web Security Toolkit for Educational Purposes
+Web Security Toolkit
 
 </div>
